@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation"/>
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -21,29 +33,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:background="#85CF5D"
-                android:minHeight="?attr/actionBarSize"
-                android:textAlignment="textStart"
-                android:theme="?attr/actionBarTheme"
-                app:navigationContentDescription="Navigation Description"
-                app:navigationIcon="@drawable/hamburger2">
-                <!-- navigation icon and description for the Toolbar-->
-                <TextView
-                    android:id="@+id/toolbarTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fontFamily="@font/homemade_apple"
-                    android:text="enveeNYC"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp" />
-            </androidx.appcompat.widget.Toolbar>
-
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,6 +46,7 @@
                     android:background="#FFFFFF"
                     android:commitIcon="@android:drawable/ic_search_category_default"
                     android:orientation="horizontal"
+                    android:queryHint="h"
                     android:searchIcon="@android:drawable/ic_search_category_default"
                     android:visibility="visible" />
 
@@ -180,5 +170,6 @@
 
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

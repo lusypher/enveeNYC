@@ -21,4 +21,8 @@
     <string name="title_activity_quests">Quests</string>
     <string name="title_activity_volunteer">Volunteer</string>
     <string name="title_activity_news">News</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_notification">Notification</string>
 </resources>

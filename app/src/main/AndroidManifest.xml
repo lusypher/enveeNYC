@@ -8,9 +8,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Notification"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name=".Friends"
+            android:label="@string/title_activity_friends"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ProfilePage"
+            android:label="@string/title_activity_profile_page"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".BaseDrawerActivity" />
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map"
+            android:theme="@style/NoActionBar" />
+        <activity
             android:name=".News"
             android:label="@string/title_activity_news"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".Volunteer"
             android:label="@string/title_activity_volunteer"

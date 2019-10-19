@@ -6,8 +6,10 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -45,13 +47,14 @@ public class UserProfile extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send)
+                R.id.nav_profile, R.id.nav_gallery, R.id.nav_slideshow,
+                R.id.nav_tools, R.id.text_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
     }
 
     @Override
@@ -81,6 +84,22 @@ public class UserProfile extends AppCompatActivity {
     }
     public void goToAnActivity4(View view){
         Intent intent = new Intent(this, News.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity5(MenuItem item){
+        Intent intent = new Intent(this, Map.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity6(MenuItem item){
+        Intent intent = new Intent(this, ProfilePage.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity7(MenuItem item){
+        Intent intent = new Intent(this, Friends.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity8(MenuItem item){
+        Intent intent = new Intent(this, Notification.class);
         startActivity(intent);
     }
 }

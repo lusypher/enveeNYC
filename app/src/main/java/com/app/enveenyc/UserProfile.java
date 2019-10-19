@@ -71,4 +71,16 @@ public class UserProfile extends AppCompatActivity {
         Intent intent = new Intent(this, Mission.class);
         startActivity(intent);
     }
+    public void goToAnActivity2(View view){
+        Intent intent = new Intent(this, Quests.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity3(View view){
+        Intent intent = new Intent(this, Volunteer.class);
+        startActivity(intent);
+    }
+    public void goToAnActivity4(View view){
+        Intent intent = new Intent(this, News.class);
+        startActivity(intent);
+    }
 }

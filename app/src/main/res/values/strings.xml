@@ -18,4 +18,7 @@
     <string name="title_activity_mission">Mission</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_quests">Quests</string>
+    <string name="title_activity_volunteer">Volunteer</string>
+    <string name="title_activity_news">News</string>
 </resources>

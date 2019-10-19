@@ -110,19 +110,22 @@
                         android:layout_width="205dp"
                         android:layout_height="185dp"
                         android:background="#F44336"
-                        android:text="Our Story"
                         android:onClick="goToAnActivity"
+                        android:text="Our Story"
+                        android:textSize="14sp"
                         tools:layout_conversion_absoluteHeight="200dp"
                         tools:layout_conversion_absoluteWidth="200dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="305dp" />
 
                     <Button
-                        android:id="@+id/button13"
+                        android:id="@+id/enveeQuests"
                         android:layout_width="206dp"
                         android:layout_height="185dp"
                         android:background="#FFEB3B"
-                        android:text="Button"
+                        android:onClick="goToAnActivity2"
+                        android:text="enveeQuests"
+                        android:textSize="14sp"
                         tools:layout_conversion_absoluteHeight="200dp"
                         tools:layout_conversion_absoluteWidth="200dp"
                         tools:layout_editor_absoluteX="0dp"
@@ -145,22 +148,26 @@
                     app:layout_constraintTop_toBottomOf="parent">
 
                     <Button
-                        android:id="@+id/button15"
+                        android:id="@+id/volunteer"
                         android:layout_width="205dp"
                         android:layout_height="185dp"
                         android:background="#009688"
-                        android:text="Button"
+                        android:onClick="goToAnActivity3"
+                        android:text="Volunteer"
+                        android:textSize="14sp"
                         tools:layout_conversion_absoluteHeight="200dp"
                         tools:layout_conversion_absoluteWidth="200dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="305dp" />
 
                     <Button
-                        android:id="@+id/button14"
+                        android:id="@+id/news"
                         android:layout_width="206dp"
                         android:layout_height="185dp"
                         android:background="#E91E63"
-                        android:text="Button"
+                        android:onClick="goToAnActivity4"
+                        android:text="News"
+                        android:textSize="14sp"
                         tools:layout_conversion_absoluteHeight="200dp"
                         tools:layout_conversion_absoluteWidth="200dp"
                         tools:layout_editor_absoluteX="0dp"

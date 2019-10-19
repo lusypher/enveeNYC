@@ -1,5 +1,6 @@
 package com.app.enveenyc;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -65,5 +66,9 @@ public class UserProfile extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+    public void goToAnActivity(View view) {
+        Intent intent = new Intent(this, Mission.class);
+        startActivity(intent);
     }
 }

@@ -8,9 +8,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Organize"
+            android:label="@string/title_activity_organize"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
             android:name=".Notification"
             android:label="@string/title_activity_notification"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".Friends"
             android:label="@string/title_activity_friends"

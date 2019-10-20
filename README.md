@@ -5,7 +5,7 @@ enveeNYC is an android mobile application that encourages uses to volunteer to h
 
 - This application also benefits companies by sharing a direct database of volunteers on our platform that can allow them to recieve particpation or support for their campaigns. Our platform will also benefit companies such that it brings exposure with volunteers as customers and companies can expand their business through management of users who support their campaigns. enveeNYC takes a small percentage of donations earned from company campaigns to help support the product as well as donations from users. 
 
-- Users can add friends. Organize their own events such as "pick up litter at Flushing Meadows on Saturday" and accept invites for those events. Users can also complete enveeQuests to earn points. Users can share images of completing quests. 
+- Users can add friends. Organize their own events such as "pick up litter at Flushing Meadows on Saturday" and accept invites for those events. Users can also complete enveeQuests to earn points. Users can share images of completing quests, they also recieve badges for completing benchmarks.
 
 - The application also focuses on educating the user through news articlies and trivia about environmental awareness and sustainability. For example: 
   If every person in New York picked up one plastic bottle per day, we could reduce plastic polution by 25% by 2025.

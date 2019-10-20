@@ -7,7 +7,47 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".HomePage"></activity>
+        <activity
+            android:name=".Organize"
+            android:label="@string/title_activity_organize"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name=".Notification"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Friends"
+            android:label="@string/title_activity_friends"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ProfilePage"
+            android:label="@string/title_activity_profile_page"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".BaseDrawerActivity" />
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Volunteer"
+            android:label="@string/title_activity_volunteer"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Quests"
+            android:label="@string/title_activity_quests"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Mission"
+            android:label="@string/title_activity_mission"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/NoActionBar" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
